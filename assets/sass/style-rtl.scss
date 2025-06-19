@@ -1,0 +1,27 @@
+/*!
+*  Magdy Elsayyad - Base theme
+* Copyright 2022-2023 Magdy Elsayyad (https://www.linkedin.com/in/magdy-elsayyad-14a086193/)
+*/
+//
+// Scripts
+// 
+// Import variables
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import './bootstrap/scss/functions';
+@import './variable-override';
+@import './fonts-rtl.scss';
+@import './bootstrap/scss/bootstrap-rtl.scss';
+
+html {
+    direction: rtl
+}
+
+// Import Bootstrap
+
+
+// Global CSS 
+@import "./global.scss";
+
+

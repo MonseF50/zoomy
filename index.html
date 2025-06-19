@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoomy</title>
+    <!-- aos library link -->
+    <link rel="stylesheet" href="./libs/aos-master/dist/aos.css" />
+    <!-- bootstrap 5 link -->
+    <link rel="stylesheet" href="./libs/bs-5.0.0/dist/css/bootstrap.min.css" />
+    <!-- swiper link file -->
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css" />
+    <!-- main blobal file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="loading vh-100 d-none d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 ">
+      <span class="loader"></span>
+    </div> -->
+    <nav class="newNav py-5 position-relative">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="logo">
+          <img src="./assets/images/header_logo_one.svg" alt="navbar logo" />
+        </a>
+        <ul class="nav links d-none d-lg-flex align-items-center gap-3">
+          <li>
+            <div class="dropdown">
+              <a href="" class="nav-link  " data-bs-toggle="dropdown" aria-expanded="false">
+                All Categories
+                <i class="bxr bx-chevron-down"></i>
+              </A>
+              <ul class="dropdown-menu categories  p-4 bg-white shadow-lg w-100px list-unstyled m-0 rounded-3 position-absolute top-100 start-0">
+              <li class="rounded-3">
+                <a href="#" class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories1.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">buisness</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories2.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">technology</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories3.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">development</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories4.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">photography</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories5.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">digital marketion</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories6.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">programing</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories8.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">videograpgy</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories7.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">lllustration</span></a
+                >
+              </li>
+              </ul>
+            </div>
+          </li>
+          <!-- <li>
+            <a id="categoriesLink" href="#" class="nav-link dropdown ">All Categories <i class="bxr bx-chevron-down"></i>
+            </a>
+            <ul
+              style="display: block"
+              id="categoriesList"
+              class="categories  p-4 bg-white shadow-lg w-100px list-unstyled m-0 rounded-3 position-absolute top-100 start-0"
+            >
+              <li class="rounded-3">
+                <a href="#" class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories1.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">buisness</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories2.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">technology</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories3.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">development</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories4.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">photography</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories5.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">digital marketion</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories6.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">programing</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories8.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">videograpgy</span></a
+                >
+              </li>
+              <li class="rounded-3">
+                <a href="#"class="dropdown-item">
+                  <div class="img">
+                    <img src="./assets/images/categories7.svg" alt="icon" />
+                  </div>
+                  <span class="text-capitalize">lllustration</span></a
+                >
+              </li>
+            </ul>
+          </li> -->
+          <li>
+            <a id="homeLink" href="#" class="active nav-link"
+              >Home<i class="bxr bx-chevron-down"></i
+            ></a>
+            <ul
+              style="display: none"
+              id="homeList"
+              class="dropDown navLinkList bg-white shadow-lg w-100px list-unstyled m-0 rounded-3 position-absolute top-100 start-0"
+            >
+              <li><a href="#"> Home Style 1 </a></li>
+              <li><a href="#"> Home Style 2 </a></li>
+              <li><a href="#"> Home Style 3 </a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="pagesLink" href="#" class="nav-link"
+              >Pages<i class="bxr bx-chevron-down"></i
+            ></a>
+            <ul
+              style="display: none"
+              id="pagesList"
+              class="dropDown navLinkList bg-white shadow-lg w-100px list-unstyled m-0 rounded-3 position-absolute top-100 start-0"
+            >
+              <li><a href="#"> About Us </a></li>
+              <li><a href="#"> Couorse One </a></li>
+              <li><a href="#"> Couorse Two </a></li>
+              <li><a href="#"> Couorse Details </a></li>
+              <li><a href="#"> Price </a></li>
+              <li><a href="#"> Instractor </a></li>
+              <li><a href="#"> Instractor Profile </a></li>
+              <li><a href="#"> FAQ </a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="blogLink" href="#" class="nav-link"
+              >Blog<i class="bxr bx-chevron-down"></i
+            ></a>
+            <ul
+              style="display: none"
+              id="blogList"
+              class="dropDown navLinkList bg-white shadow-lg w-100px list-unstyled m-0 rounded-3 position-absolute top-100 start-0"
+            >
+              <li><a href="#"> Blog Grid</a></li>
+              <li><a href="#"> Blog Details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="icon d-flex align-items-center gap-4">
+          <button
+            class="btn btn-warning text-white fw-bold text-capitalize d-none d-xl-block"
+          >
+            try free now
+          </button>
+          <a class="user" href="">
+            <i class="bxr bx-user"></i>
+          </a>
+          <div class="toggle navbar-icon-mobile d-block d-lg-none">
+            <i class="bxr bx-menu-wide"></i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="nav-mobile text-white d-flex flex-column"
+      >
+        <div id="mobile_icon_close" class="close-icon p-3">
+          <i class="bxr bx-x"></i>
+        </div>
+
+        <ul class="list-unstyled py-4 m-0">
+          <li>
+            <a class="text-uppercase p-3 mobile-nav-link" href="">
+              <span>home</span>
+              <i class="bxr bx-chevron-left"></i>
+            </a>
+              <ul style="display: none;" class="list-unstyled navLinkList w-100 px-5 text-white">
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >home style 1</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >home style 2</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >home style 3</a>
+              </li>
+              
+            </ul>
+
+          </li>
+          <li>
+            <a class="text-uppercase p-3" href=""><span>about</span></a>
+          </li>
+          <li>
+            <a class="text-uppercase p-3 mobile-nav-link" href="">
+              <span>pages</span>
+              <i class="bxr bx-chevron-left"></i>
+            </a>
+              <ul style="display: none;" class="list-unstyled navLinkList w-100 px-5 text-white">
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >course one</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >course two</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >course details</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >price</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >istructor</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >istructor profile</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >FAG</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >login</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li>
+            <a class="text-uppercase p-3  mobile-nav-link" href="">
+              <span>blog</span>
+              <i class="bxr bx-chevron-left"></i>
+            </a>
+                                    <ul style="display: none;" class="list-unstyled navLinkList w-100 px-5 text-white">
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >blog grid</a>
+              </li>
+              <li class="d-flex g-3 align-items-center">
+                <i class='bxr  bx-arrow-right'  ></i> 
+                <a href="" >blog details</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li>
+            <a class="text-uppercase p-3" href=""><span>contact us</span></a>
+          </li>
+          <li class="mt-60px button-try px-3">
+            <button class="btn btn-warning px-3 text-white fw-bolder d-block w-100">try free now</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <!-- Start Hero Section  -->
+      <section
+        class="hero min-vh-100 d-flex pb-5 align-items-end  pt-md-60px pt-xl-150px position-relative"
+      >
+        <div
+          class="container mt-5 mt-lg-0 d-flex justify-content-center align-items-end h-100"
+        >
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col img order-1 order-lg-0">
+              <div class="inner position-relative">
+                <img
+                  class="heroImg"
+                  src="./assets/images/hero.png"
+                  alt="hero section image"
+                />
+                <div class="bg-img d-none d-md-block">
+                  <img
+                    src="./assets/images/earth-bg.svg"
+                    alt=""
+                    class="w-100"
+                  />
+                </div>
+                <div class="overlay-img position-absolute bottom-0">
+                  <img src="./assets/images/herolayer2.png" alt="" />
+                  <img src="./assets/images/herolayer1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col info order-0 order-lg-1">
+              <div class="inner">
+                <h1 data-aos="fade-up" data-aos-duration="1000">
+                  Learn Everyday & Any New Skills Online with Top
+                  <span>Instructors.</span>
+                </h1>
+                <p class="py-4" data-aos="fade-up" data-aos-duration="1300">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form.
+                </p>
+                <form action="" class="w-100  position-relative">
+                  <i
+                    class="bxr bx-search position-absolute start-20px top-20px"
+                  ></i>
+                  <input
+                    placeholder="Find Courses"
+                    type="search"
+                    class="w-100 py-3"
+                    name="uSearch"
+                  />
+                  <p class="d-flex justify-content-center align-items-center gap-2 position-relative">
+                    <i class="bxr bx-chevron-down"></i>
+                    <span>Categries</span>
+                    <!-- <ul
+                    class="categor-list d-none list-unstyled m-0 "
+                  >
+                    <li><a href="#" class="fw-bolder">Categories</a></li>
+                    <li><a href="#">Class One</a></li>
+                    <li><a href="#">Class Two</a></li>
+                    <li><a href="#">Class Three</a></li>
+                    <li><a href="#">Class Four</a></li>
+                    <li><a href="#">Class Five</a></li>
+                  </ul> -->
+                  </p>
+                  <button
+                    class="btn btn-warning py-3 px-40px text-nowrap text-white fw-bold text-capitalize"
+                  >
+                    search now
+                  </button>
+
+                </form>
+                <p class="mt-4">
+                  <span class="text-warning">#1</span> Worldwide Online Learning
+                  & Skills Development Platform
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="floating-img position-absolute top-0 start-0 bottom-0 end-0"
+        >
+          <img src="./assets/images/01.svg" alt="" />
+          <img src="./assets/images/02.svg" alt="" />
+          <img src="./assets/images/03.svg" alt="" />
+          <img src="./assets/images/04.svg" alt="" />
+          <img src="./assets/images/05.svg" alt="" />
+          <img src="./assets/images/06.svg" alt="" />
+          <img src="./assets/images/dot-box-1.svg" alt="" />
+          <img
+            src="./assets/images/dot-box-2.svg"
+            class="d-none d-lg-block"
+            alt=""
+          />
+          <img src="./assets/images/dot-box-5.svg" alt="" />
+          <img
+            src="./assets/images/dot-plan-1.svg"
+            class="d-none d-lg-block"
+            alt=""
+          />
+          <img
+            src="./assets/images/dot-plan-1.svg"
+            class="d-none d-lg-block"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- End Hero Section  -->
+      <!-- Start Deals Section  -->
+      <section class="deals py-100px">
+  <div class="container  ">
+    <div class="row g-5">
+      <div class="col-12 col-lg-3 text-center text-lg-start info">
+        <div class="inner">
+          <h2 class="mb-4">
+            <span class="text-warning d-block">Great</span> 
+            
+            Deals For You
+          </h2>
+          <p class="text-secondary">There are many variations of passa of Lorem Ipsum available, but the majority have suffered.</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-9 slider">
+        <div class="inner">
+            <div class="swiper  deals-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal1.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal2.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal3.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal1.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal2.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="card rounded-3">
+          <div class="img">
+            <img src="./assets/images/deal3.svg" alt="deal image">
+          </div>
+          <h4 class="my-4">Export Trainers</h4>
+          <p>Lorem ipsum dolor sit, placeat in optio veniam quam laudantium?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="swiper-button-next">
+      <i class='bxr  bx-arrow-right'  ></i> 
+    </div>
+    <div class="swiper-button-prev">
+      <i class='bxr  bx-arrow-left'  ></i>  -->
+    </div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>        
+      </section>
+      <!-- End Deals Section  -->
+       <!-- Start teacher and students  Seaction  -->
+        <section class="teachter_student position-relative ">
+          <div class="section-background">
+            <div class="container py-40px pt-md-100px  pt-md-120px ">
+              <div class="teachter_student-container text-center">
+                <div class="main-title">
+                  <h6>teachter&&students</h6>
+                  <h2>What you Looking For?</h2>
+                </div>
+  
+                <div class="row row-cols-1 row-cols-md-2 mt-2 mtmd-4  g-4 ">
+                  <div class="col student" data-aos="fade-up"
+       data-aos-duration="1000">
+                    <div class="inner">
+  <div class="card rounded-4 p-5">
+    <div class="img position-relative">
+      <div class="circle  "></div>
+      <img src="./assets/images/student.svg" class="w-100 d-block" alt="student img">
+    </div>
+    <h3 class="my-30px">Do you want to teach here?</h3>
+    <p class="mb-30px">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.</p>
+  <button class="btn border-2 border-warning rounded-5 fw-bold text-capitalize text-warning">register now</button>
+  </div>
+                  </div>
+                </div>
+                  <div class="col teacher" data-aos="fade-up"
+       data-aos-duration="1000">
+                    <div class="inner">
+                      <div class="card rounded-4 p-5">
+    <div class="img position-relative">
+      <div class="circle  "></div>
+      <img src="./assets/images/teacher.svg" class="w-100 d-block" alt="teacher img">
+    </div>
+    <h3 class="my-30px">Do you want to learn here?</h3>
+    <p class="mb-30px">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.</p>
+  <button class="btn btn-warning text-white border-2 border-warning rounded-5 fw-bold text-capitalize ">register now</button>
+  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                          <div class="box-blur"></div>
+  
+            </div>
+          </div>
+        </section>
+       <!-- End teacher and students  Seaction  -->
+       
+       <!-- Start browse categories  Seaction  -->
+        <section class="browse_categories position-relative">
+          <div class="section-background">
+            <div class="container py-40px py-md-100px  py-md-120px ">
+              <div class="browse_categories-container text-center">
+                              <div class="main-title">
+                  <h6>browse categories</h6>
+      <h2>Explore our Online Subjects</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                  <div class="col" data-aos="fade-up"
+       data-aos-duration="1000">
+                    <div class="inner">
+                      <div class="card bg-white rounded-2 p-4">
+                        <img src="./assets/images/atom.svg" class="w-50 d-block m-auto" alt="atom photo">
+                        <h4 class="py-4">Science</h4>
+                        <p class="text-secondary">126+ Courses Available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col" data-aos="fade-up"
+       data-aos-duration="1200">
+                    <div class="inner">
+                      <div class="card bg-white rounded-2 p-4">
+                        <img src="./assets/images/web-development.svg" class="w-50 d-block m-auto" alt="web development photo">
+                        <h4 class="py-4">Development</h4>
+                        <p class="text-secondary">325+ Courses Available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"
+                  data-aos="fade-up"
+       data-aos-duration="1400">
+                    <div class="inner">
+                      <div class="card bg-white rounded-2 p-4">
+                        <img src="./assets/images/atom.svg" class="w-50 d-block m-auto" alt="atom photo">
+                        <h4 class="py-4">Science</h4>
+                        <p class="text-secondary">126+ Courses Available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"
+                  data-aos="fade-up"
+       data-aos-duration="1600">
+                    <div class="inner">
+                      <div class="card bg-white rounded-2 p-4">
+                        <img src="./assets/images/career-path.svg" class="w-50 d-block m-auto" alt="career photo">
+                        <h4 class="py-4">Career</h4>
+                        <p class="text-secondary">156+ Courses Available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col" data-aos="fade-up"
+       data-aos-duration="1800">
+                    <div class="inner">
+                      <div class="card bg-white rounded-2 p-4">
+                        <img src="./assets/images/graphic-tool.svg" class="w-50 d-block m-auto" alt="graphic tool photo">
+                        <h4 class="py-4">Arts & Design</h4>
+                        <p class="text-secondary">136+ Courses Available</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-warning fw-bold mt-4 text-white" data-aos="fade-up" data-aos-duration="2000">All Categories</button>
+              </div>
+              <div class="box-blur"></div>
+            </div>
+          </div>
+        </section>
+       <!-- End browse categories  Seaction  -->
+       <!-- Start Courses  Seaction  -->
+        <section class="courses py-100px">
+          <div class="container">
+            <div class="main-title">
+              <h6>Featured Courses</h6>
+              <h2>Explore our Popular Courses</h2>
+            </div>
+            <ul class="nav course-nav nav-tabs justify-content-center mb-4 gap-4 border-0" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">all</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase" id="career-tab" data-bs-toggle="tab" data-bs-target="#career-tab-pane" type="button" role="tab" aria-controls="career-tab-pane" aria-selected="false">career</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase" id="development-tab" data-bs-toggle="tab" data-bs-target="#development-tab-pane" type="button" role="tab" aria-controls="development-tab-pane" aria-selected="false">development</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase" id="buisness-tab" data-bs-toggle="tab" data-bs-target="#buisness-tab-pane" type="button" role="tab" aria-controls="buisness-tab-pane" aria-selected="false">buisness</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase" id="science-tab" data-bs-toggle="tab" data-bs-target="#science-tab-pane" type="button" role="tab" aria-controls="science-tab-pane" aria-selected="false">science</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class=" btn  text-uppercase" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="false">design</button>
+  </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course1.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor1.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course2.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor2.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Your Career to build for the pro level</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course3.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor3.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course4.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor4.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Your Career to build for the pro level</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course5.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor5.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="career-tab-pane" role="tabpanel" aria-labelledby="career-tab" tabindex="0">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course1.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor1.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course2.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor2.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Your Career to build for the pro level</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="development-tab-pane" role="tabpanel" aria-labelledby="development-tab" tabindex="0">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course4.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor4.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Your Career to build for the pro level</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course5.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor5.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="buisness-tab-pane" role="tabpanel" aria-labelledby="buisness-tab" tabindex="0">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course1.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor1.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="science-tab-pane" role="tabpanel" aria-labelledby="science-tab" tabindex="0">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course5.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor5.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course1.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor1.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course3.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor3.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="inner">
+                              <div class="card p-2 shadow-lg rounded-3">
+                                <div class="img overflow-hidden position-relative">
+                                  <a href="">
+                                    <img src="./assets/images/course6.png" class="d-block w-100" alt=" course photo one">
+                                  </a>
+                                  <div class="badge bg-primary position-absolute top-20px start-20px p-2">4.8(256)</div>
+                                  <div class="badge heart bg-white position-absolute top-20px end-20px p-2">
+                                    <i class='bx  bxs-heart '  ></i> 
+                                  </div>
+                                </div>
+                                  <div class="card-body">
+                                    <div class="info_and_instractor mb-2 d-flex justify-content-between align-items-center ">
+                                      <div class="info">
+                                        <span>science</span>
+                                      <span>lap</span>
+                                      </div>
+                                      <img src="./assets/images/instractor6.png" alt="instractor one">
+                                    </div>
+                                    <a href="">Take Your Career to the Next Level Future</a>
+                                    <div class="course-data d-flex justify-content-between pt-3">
+                                      <span><i class='bx  bx-clock-5'  ></i> 12 class</span>
+                                      <span> <i class='bx  bx-bar-chart'  ></i> Higher</span>
+                                      <span><i class='bx  bx-user'  ></i> user+</span>
+                                      <span class="text-warning">$250</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <!-- End Courses Seaction  -->
+        <!-- Start  Explore Section -->
+         <section class="explore">
+          <div class="section-background">
+            <div class="container  py-40px py-md-100px py-md-120px">
+  <div class="row">
+    <div class="col-12 col-xl-6 img-part">
+      <div class="inner position-relative">
+        <div class="img-layer d-flex justify-content-end">
+          <img src="./assets/images/explore.png" class="w-100" alt="explore photo">
+        </div>
+        <div class="safe d-none d-md-flex align-items-center gap-4 bg-white rounded-4 px-4 py-3 position-absolute top-2rem start-2rem ">
+          <div class="img">
+            <img src="./assets/images/deal4.svg" alt=" shild photo">
+          </div>
+           <span class="fw-bolder">Safe & Secured </span>
+        </div>
+        <div class="catalog d-none d-md-flex  align-items-center gap-4 bg-white rounded-4 px-4 py-3 position-absolute ">
+          <div class="img">
+            <img src="./assets/images/catalog.svg" alt="catalog photo">
+          </div>
+            <span class="fw-bolder">120+ Catalog </span>
+        </div>
+        <div class="correct d-none d-md-flex  align-items-center gap-4 bg-white rounded-4 px-4 py-3 position-absolute ">
+          <div class="img">
+            <i class='bx  bxs-check'></i>         
+          </div>
+          <span class="fw-bolder">Quality Education </span>
+        </div>
+        <div class="total-students d-none d-md-block bg-white rounded-4 px-4 py-3 position-absolute ">
+          <h6 class="fw-bolder">Total Students </h6>
+          <div class="imgs">
+            <img src="./assets/images/testi1.png" alt="">
+            <img src="./assets/images/testi2.png" alt="">
+            <img src="./assets/images/testi3.png" alt="">
+            <img src="./assets/images/testi4.png" alt="">
+            <div class="more">500+</div>
+          </div>
+        </div>
+        <div class="floating-img d-none d-md-block">
+          <img src="./assets/images/dot-box3.svg" alt="">
+        </div>
+        <a href="#" class="play d-none d-md-flex">
+          <i class='bxr  bx-play'  ></i> 
+        </a>
+        
+      </div>
+    </div>
+    <div class=" col-12 col-xl-5 offset-xl-1 details-part">
+      <div class="inner pt-100px">
+        <div class="main-title text-start">
+          <h6>Explore Zoomy</h6>
+          <h2>Why Choose Zoomy?</h2>
+        </div>
+        <p class="text-secondary mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available.</p>
+        <div class="details">
+          <p> <span class="bg-info"><i class='bx  bxs-check'  ></i></span>The majority have suffered alteration in some form.</p>
+          <p> <span class="bg-warning"><i class='bx  bxs-check'  ></i></span>There are many variations of passages of Lorem Ipsum.</p>
+          <p> <span class="bg-danger"><i class='bx  bxs-check'  ></i></span>There are many variations of passages of Lorem Ipsum.</p>
+        </div>
+        <button class="btn btn-warning py-3 px-4 text-white fw-bold">More Details</button>
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
+         </section>
+        <!-- End  Explore Section -->
+        <!-- Start  Our Instructor section  -->
+         <section class="instructor">
+          <div class="section-background">
+            <div class="container  py-40px py-md-100px py-md-120px">
+              <div class="main-title text-start">
+                <h6>Our instructor</h6>
+                <h2 class="fw-bold">Explore Experienced Instructor</h2>
+              </div>
+              <div class="swiper instructor-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se1.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">mesude lampa</h4>
+                          <span class="text-secondary text-uppercase">software development</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se2.jpg" class="w-100 d-block" alt=" instructor two">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">sayed lamona </h4>
+                          <span class="text-secondary text-uppercase">ui\ux designer</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se3.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">sa3ed arza5ana</h4>
+                          <span class="text-secondary text-uppercase">fronEnd Developer</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se4.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">ali aloka</h4>
+                          <span class="text-secondary text-uppercase">software development</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se1.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">mesude lampa</h4>
+                          <span class="text-secondary text-uppercase">software development</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se2.jpg" class="w-100 d-block" alt=" instructor two">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">sayed lamona </h4>
+                          <span class="text-secondary text-uppercase">ui\ux designer</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se3.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">sa3ed arza5ana</h4>
+                          <span class="text-secondary text-uppercase">fronEnd Developer</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                      <div class="card">
+                        <div class="img position-relative overflow-hidden">
+                          <img src="./assets/images/instructor-se4.jpg" class="w-100 d-block" alt=" instructor one">
+                  <div class="social-media d-flex gap-3  justify-content-center position-absolute  start-0 end-0  py-4">
+                    <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                    <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                    <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                    <a href=""><i class='bxl  bx-google'  ></i> </a>
+                  </div>
+                        </div>
+                        <div class="card-body text-center">
+                          <h4 class="title fw-bolder text-capitalize mb-3">ali aloka</h4>
+                          <span class="text-secondary text-uppercase">software development</span>
+                        </div>
+                      </div>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>  
+          </div>
+         </section>
+        <!-- End  Our Instructor section  -->
+        <!-- Star testimonilas  Section  -->
+         <section class="testi py-40px py-md-100px py-md-120px ">
+          <div class="container">
+            <div class="head mb-5 d-flex justify-content-between align-items-center flex-column flex-md-row">
+              <div class="main-title text-center text-md-start">
+                <h6>Testimonials</h6>
+                <h2 class="fw-bold">Explore Experienced Instructor</h2>
+              </div>
+              <button class="btn btn-warning py-3 px-4 text-capitalize text-white">read all rewards</button>
+            </div>
+            <div class="swiper testi-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi1.png" alt="client one">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">mechail lille</h5>                    
+                              <span class="text-warning text-capitalize">full stack developoer</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi2.png" alt="client two">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">monica maicale</h5>                    
+                              <span class="text-warning text-capitalize">user interface</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi3.png" alt="client three">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold"> yasmean katap</h5>                    
+                              <span class="text-warning text-capitalize">content writer</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi2.png" alt="client two">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">monica maicale</h5>                    
+                              <span class="text-warning text-capitalize">user interface</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi1.png" alt="client one">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">mechail lille</h5>                    
+                              <span class="text-warning text-capitalize">full stack developoer</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi2.png" alt="client two">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">monica maicale</h5>                    
+                              <span class="text-warning text-capitalize">user interface</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi3.png" alt="client three">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold"> yasmean katap</h5>                    
+                              <span class="text-warning text-capitalize">content writer</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                      <div class="inner">
+                        <div class="card p-4 rounded-3" >
+                          <div class="ditalis d-flex gap-3 align-items-center">
+                            <img src="./assets/images/testi2.png" alt="client two">
+                            <div class="info">
+                              <h5 class="text-capitalize fw-bold">monica maicale</h5>                    
+                              <span class="text-warning text-capitalize">user interface</span>
+                            </div>
+                          </div>
+                          <p class="text-secondary py-4">" Lorem, ipsum dolor sit amet elit. Dolorum et ipsam optio distinctio? Inventore, nemo ullam. Sapiente harum soluta ea!</p>
+                          <img src="./assets/images/quote.svg"  style="width: 50px;" alt="">
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="swiper-pagination bullites"></div>
+            </div>
+          </div>
+         </section>
+        <!-- End  testimonilas Section  -->
+       <!-- Start Latest News Section  -->
+        <section class="latest_news">
+          <div class="section-background">
+            <div class="container py-40px py-md-100px  py-md-120px">
+              <div class="latest_news-container">
+                <div class="main-title">
+                  <h6>latest news</h6>
+      <h2>Lots of new Blogs & News</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4">
+                  <div class="col" data-aos="fade-up"
+       data-aos-duration="1400">
+                    <div class="inner">
+                      <div class="card rounded-3 overflow-hidden bg-white">
+                        <div class="img overflow-hidden">
+                          <img src="./assets/images/latest-new1.jpg" class="w-100 d-block" alt="latest-new one">
+                        </div>
+                        <div class="card-body p-4 ">
+                          <h5 class="text-warning">Online . School . Skill</h5>
+                          <a href="#" class="d-block mt-4 mb-3">5 Ways to Use Padlet in Higher -Ed Online Classroom</a>
+                          <div class="footer pt-3 d-flex align-items-center justify-content-between ">
+                            <span>Date : June 15 , 2021</span>
+                            <span>By Guest Admin</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"data-aos="fade-up"
+       data-aos-duration="1800">
+                    <div class="inner">
+                      <div class="card rounded-3 overflow-hidden bg-white">
+                        <div class="img overflow-hidden">
+                          <img src="./assets/images/latest-new2.jpg" class="w-100 d-block" alt="latest-new two">
+                        </div>
+                        <div class="card-body p-4 ">
+                          <h5 class="text-warning">Education . Expert</h5>
+                          <a href="#" class="d-block mt-4 mb-3">4 New Zoom Features Enhance Virtual Teaching & Learning</a>
+                          <div class="footer pt-3 d-flex align-items-center justify-content-between ">
+                            <span>Date : June 15 , 2021</span>
+                            <span>By Guest Admin</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"data-aos="fade-up"
+       data-aos-duration="2200">
+                    <div class="inner">
+                      <div class="card rounded-3 overflow-hidden bg-white">
+                        <div class="img overflow-hidden">
+                          <img src="./assets/images/latest-new3.jpg" class="w-100 d-block" alt="latest-new one">
+                        </div>
+                        <div class="card-body p-4 ">
+                          <h5 class="text-warning">Creative . Programmer</h5>
+                          <a href="#" class="d-block mt-4 mb-3">Using Social Media to Support Online Teaching</a>
+                          <div class="footer pt-3 d-flex align-items-center justify-content-between ">
+                            <span>Date : June 15 , 2021</span>
+                            <span>By Guest Admin</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-warning fw-bold text-white " data-aos="fade-up" data-aos-duration="2800">Load More</button>
+  
+              </div>
+            </div>
+          </div>
+        </section>
+       <!-- End Latest News Section  -->
+        <!-- Start Subscripe Section -->
+         <section class="subscripe pt-100px pb-60px">
+          <div class="container text-center" >
+            <h2>Subscribe our Newsletter & Get <br class="d-none d-lg-block"> every updates.</h2>
+            <form>
+              <input type="email" name="uEmail" placeholder="Enter Your Email" id="">
+              <input type="submit" value="Subscripe Now" class="btn btn-primary fw-bold text-white text-uppercase">
+            </form>
+          </div>
+         </section>
+        <!-- End Subscripe Section -->
+      </main>
+      <footer class="py-60px">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4 g-md-60px">
+            <div class="col"  data-aos="fade-up"
+     data-aos-duration="1200">
+              <div class="inner text-center text-sm-start">
+                <img src="./assets/images/header_logo_one.svg" alt="header logo image">
+                <p class="my-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed di nonumy eirmod temporinvi dunt ut labore lorem ipsum.</p>
+                <div class="social-media d-flex gap-3 list-unstyled justify-content-center justify-content-sm-start">
+                  <a href=""><i class='bxl  bx-facebook'  ></i> </a>
+                  <a href=""><i class='bxl  bx-twitter-x'  ></i> </a>
+                  <a href=""><i class='bxl  bx-linkedin'  ></i> </a>
+                  <a href=""><i class='bxl  bx-google'  ></i> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col"  data-aos="fade-up"
+     data-aos-duration="1600">
+              <div class="inner text-center">
+                <h5>Contact us</h5>
+                <ul>
+                  <li><a href="">info@example.com</a></li>
+                  <li><a href="">+00 235 695 58</a></li>
+                  <li><a href="">Terms & Conditions</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Contacts</a></li>
+                  <li><a href="">Our Careers</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col"  data-aos="fade-up"
+     data-aos-duration="2000">
+              <div class="inner text-center">
+                <h5>Our Careers</h5>
+                <ul>
+                  <li><a href="">Quick Links</a></li>
+                  <li><a href="">About US</a></li>
+                  <li><a href="">Explore Pages</a></li>
+                  <li><a href="">Our Services</a></li>
+                  <li><a href="">Destinations</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up"
+     data-aos-duration="2400">
+              <div class="inner text-center">
+                <h5>Features</h5>
+                <ul>
+                  <li><a href="">Home Page</a></li>
+                  <li><a href="">Testimonials</a></li>
+                  <li><a href="">Latest News</a></li>
+                  <li><a href="">Help Center</a></li>
+                  <li><a href="">Help Center</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copy-w rite text-center py-4">Copyright &copy; 2021 <span class="fw-bolder">Zoomy</span> . All Rights Reserved</div>
+    <!-- swiper js file -->
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./libs/bs-5.0.0/dist/js/bootstrap.bundle.js"></script>
+    <!-- aos js file -->
+    <script src="./libs/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      var swiper = new Swiper(".deals-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop :true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+          autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        },
+        speed:1000, //علشان السرعه اللى بيتنقل بيها الاسليد من واحده للتانيه 
+    breakpoints: {
+      0 : {
+        slidesPerView: 1,
+      },
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+    },
+          nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+  
+  });
+      var swiper = new Swiper(".testi-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 40,
+          loop :true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+                autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+              },
+              speed:1000, //علشان السرعه اللى بيتنقل بيها الاسليد من واحده للتانيه 
+          breakpoints: {
+            0 : {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1200: {
+              slidesPerView: 3,
+            },
+          },
+                nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+        
+        });
+      var swiper = new Swiper(".instructor-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop :true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+                autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+              },
+              speed:1000, //علشان السرعه اللى بيتنقل بيها الاسليد من واحده للتانيه 
+          breakpoints: {
+            0 : {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3
+            },
+            1200: {
+              slidesPerView: 4,
+            },
+          },
+                nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+        
+        });
+
+    </script>
+    <script src="./libs/jquery/jquery.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
