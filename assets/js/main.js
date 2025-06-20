@@ -1,11 +1,11 @@
 
-// $(window).on('scroll', function () {
-//     if (window.scrollY > 250) {
-//         $('.newNav').addClass('nav-bar-top ')
-//     } else {
-//         $('.newNav').removeClass('nav-bar-top ')
-//     }
-// })
+$(window).on('scroll', function () {
+    if (window.scrollY > 250) {
+        $('.newNav').addClass('nav-bar-top ')
+    } else {
+        $('.newNav').removeClass('nav-bar-top ')
+    }
+})
 
 
 // // event to oepen and close dropdown in navbar in larg screen
