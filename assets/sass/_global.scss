@@ -190,9 +190,10 @@ nav {
           margin-left: 7px;
         }
       }
-
-      .dropdown-menu.show {
-        display: flex;
+      .all_categries {
+        .dropdown-menu.show {
+          display: flex;
+        }
       }
       .categories {
         width: calc(750px + 10px);
